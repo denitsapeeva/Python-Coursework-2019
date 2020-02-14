@@ -7,7 +7,10 @@ class University:
 
     def print_students_in_class(self):
         for student in self.student_list:
-            print (student.get_student())
+            print (student.get_graduates())
 
     def add_student(self, student):
         self.student_list.append(student)
+
+
+
